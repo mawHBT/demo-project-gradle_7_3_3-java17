@@ -7,6 +7,7 @@ public class Callee {
     }
 
     private void innerMethod() {
+
         try {
             Thread.sleep(1);
         } catch (final InterruptedException e) {
