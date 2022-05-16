@@ -6,6 +6,10 @@ public class Callee {
         innerMethod();
     }
 
+    protected void method2() {
+        System.out.println("Not called by any Test!");
+    }
+
     private void innerMethod() {
         try {
             Thread.sleep(1);
